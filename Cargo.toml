@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = ["application", "domain", "infraestructure", "myapp"]
+
+
+#[workspace. Dependencies]
