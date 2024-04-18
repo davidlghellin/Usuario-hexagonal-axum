@@ -10,3 +10,6 @@ domain = { path = "../domain" }
 infraestructure = { path = "../infraestructure" }
 
 tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
+
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
