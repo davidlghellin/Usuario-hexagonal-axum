@@ -3,7 +3,6 @@ use std::{borrow::Cow, collections::HashMap};
 use domain::ApiError;
 use serde_json::json;
 use thiserror::Error;
-use tracing::log::error;
 
 use axum::{
     http::StatusCode,
