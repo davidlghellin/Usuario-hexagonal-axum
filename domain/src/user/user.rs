@@ -1,7 +1,10 @@
+use serde::{Deserialize, Serialize};
+
 use std::fmt;
 
+#[derive(Serialize, Deserialize, Debug)]
 pub struct User {
-    nombre: String,
+    pub nombre: String,
 }
 
 impl User {

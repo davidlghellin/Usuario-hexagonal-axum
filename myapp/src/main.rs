@@ -17,7 +17,7 @@ async fn main() {
 
     info!("Iniciamos la app");
     info!("Hello, world!");
-    let usuario = domain::user::User::new(david_name.to_owned());
+    let usuario = domain::user::user::User::new(david_name.to_owned());
     info!("{}", usuario);
 
     run().await
